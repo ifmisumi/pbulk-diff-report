@@ -6,7 +6,7 @@
   test with following command 
 
   PATH=/usr/pkg_bulk/bin:/usr/pkg_bulk/sbin:${PATH} \\ \
-  bulkbuild \\
+  bulkbuild \\ \
   
   &&
   /PATH/TO/pbulk-diff-report > /tmp/mail
@@ -17,9 +17,9 @@
 
   OR
 
-  PATH=/usr/pkg_bulk/bin:/usr/pkg_bulk/sbin:${PATH} \\
+  PATH=/usr/pkg_bulk/bin:/usr/pkg_bulk/sbin:${PATH} \\ \
   
-  bulkbuild \\
+  bulkbuild \\ \
   
   &&
   /PATH/TO/pbulk-diff-report | /usr/sbin/sendmail -t
