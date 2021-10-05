@@ -5,8 +5,7 @@
 3.
   test with following command 
 
-  PATH=/usr/pkg_bulk/bin:/usr/pkg_bulk/sbin:${PATH} \\
-  
+  PATH=/usr/pkg_bulk/bin:/usr/pkg_bulk/sbin:${PATH} \\ 
   bulkbuild \\
   
   &&
